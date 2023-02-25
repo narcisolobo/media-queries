@@ -1,0 +1,38 @@
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.brand {
+  font-size: larger;
+  font-weight: bold;
+}
+
+nav {
+  background-color: #cccccc;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+main,
+aside {
+  display: grid;
+  place-items: center;
+  min-height: 500px;
+  background-color: pink;
+}
+
+main {
+  flex: 2;
+}
+
+aside {
+  flex: 1;
+}

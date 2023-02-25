@@ -1,0 +1,51 @@
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 450px;
+  }
+
+  .flex {
+    flex-direction: column;
+  }
+
+  main,
+  aside {
+    width: 100%;
+    background-color: limegreen;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 650px;
+  }
+
+  main,
+  aside {
+    background-color: rebeccapurple;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .container {
+    width: 800px;
+  }
+
+  main,
+  aside {
+    background-color: orange;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    width: 1000px;
+  }
+
+  main,
+  aside {
+    background-color: crimson;
+  }
+}
